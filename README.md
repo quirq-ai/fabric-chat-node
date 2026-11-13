@@ -2,7 +2,7 @@
 
 This folder is everything one company needs to run its own team chat on its own Hyperledger Fabric node, and to share a workspace with other companies that do the same: three files, and Docker.
 
-**Status on 13 November 2026: not launchable from GitHub yet.** These files belong to release 0.3.0 of [Fabric Chat](https://github.com/quirq-ai/fabric-chat). That release is not published yet: its three images are not on a public registry, and the repository on GitHub does not hold its code. Until then `./chat up` finds no images to run.
+**Status on 13 November 2026: the images are not published yet.** These files belong to release 0.3.0 of [Fabric Chat](https://github.com/quirq-ai/fabric-chat). Its three images are not on a public registry, so `./chat up` cannot download them. Until they are, build them on the server itself: clone that repository and run `npm run images` there, which needs Node and Docker.
 
 | File | What it is |
 | --- | --- |
